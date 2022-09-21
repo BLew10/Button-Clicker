@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="button-clicker.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <h1>Dojonary</h1>
+        <input id='search-bar' type="search" placeholder="Search">
+        <button id="login" onclick="logOnOff(this)">Login</button>
+    </div>
+
+    <div class= "main">
+        <div class="def-section">
+            <div class="diction">
+                <div class="diction-content-left">
+                    <h2 class = "word">ninja</h2>
+                    <p class="speech">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button class="likes" onclick="alert('Ninja was liked')">13 Likes</button>
+                </div>
+                <div class="diction-content-right">
+                    <p class='definition'>A practitioner skilled in the <a href="">Japanese</a> art of <a
+                            href="">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="diction">
+                <div class="diction-content-left">
+                    <h2 class = "word">ninja</h2>
+                    <p class="speech">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button class="likes" onclick="alert('Ninja was liked')">37 Likes</button>
+                </div>
+                <div class="diction-content-right">
+                    <p class='definition'>A <a href="">programmer</a> who breaks down problems with <a
+                            href="">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="custom-def">
+            <p style="font-size: 30px;">Dojonary is defined by <b>YOU</b></p>
+            <button id="add-def" onclick="this.remove()">Add Definition</button>
+        </div>
+    </div>
+
+    <script src="button-clicker.js" async defer></script>
+</body>
+
+</html>
